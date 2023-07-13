@@ -1,0 +1,73 @@
+.Profil{
+    font-family: ubuntu;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topProfil{
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonTop{
+    background-color: white !important;
+    border: none !important;
+    font-size: x-large !important;
+    transition: 0.15s;
+}
+.buttonTop:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+h2{
+    margin-left: 10% !important;
+}
+
+h3{
+    margin-top: 3% !important;
+
+    text-align: center !important;
+}
+small{
+    font-size: small !important;
+    color: gray;
+}
+.btnDeletePost, .btnEditPost{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none;
+    font-size: large;
+    transition: 0.15s;
+}
+.btnDeletePost:hover, .btnEditPost:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.btnBottomCard{
+    width: 7%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.dateProfil{
+    width: 100%;
+    justify-self: end;
+}
+.profile-photo-big{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 3px grey;
+}
+.profile-photo-big img{
+    width: 107%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}

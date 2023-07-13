@@ -1,0 +1,36 @@
+.Accueil{
+    width: 90%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+
+    margin: 2% !important;
+}
+h2{
+    margin: 2% !important;
+    color: gray !important;
+}
+.footerComment{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: grey;
+}
+.btnComment{
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+    transition: 0.1S;
+}
+.btnComment:hover{
+    transform: scale(1.3);
+    transition: 0.2S;
+}
+.bottomPost{
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    color: rgb(187, 186, 186);
+}

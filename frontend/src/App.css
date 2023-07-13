@@ -1,0 +1,75 @@
+.App{
+  min-width: 400px !important;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: ubuntu;
+  padding-top: 120px;
+}
+
+.NewPost{
+  font-family: ubuntu;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.contain{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.custom-loader {
+  width: 60px;
+  height: 25px;
+  border: 2px solid #766DF4;
+  border-radius: 50%;
+  display: grid;
+  animation: h2 2s infinite linear;
+}
+.custom-loader:before,
+.custom-loader:after {
+  content:"";
+  grid-area: 1/1;
+  border:inherit;
+  border-radius: 50%;
+  animation: inherit;
+  animation-duration: 3s;
+}
+.custom-loader:after {
+  --s:-1;
+}
+
+@keyframes h2 {
+   100% {transform:rotate(calc(var(--s,1)*1turn))}
+}
+ .formul{
+  min-width: 250px;
+  width: 30%;
+  margin-top: 5%;
+  border: 1px solid lightgray;
+  background-color: rgba(238, 237, 237, 0.479);
+  padding: 5% 5% 5% 5%;
+  box-shadow: 3px 3px 3px lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+ .formul h2{
+  text-align: center;
+ }
+ .titleNewPost{
+  width: 100% !important;
+ }
+ .connect{
+  min-width: 300px !important;
+ }
